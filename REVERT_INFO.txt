@@ -1,0 +1,13 @@
+Changes made on 2026-06-18:
+- Added DATA_DIR constant for Railway persistent volume
+- Updated WELCOME_FILE to use os.path.join(DATA_DIR, "welcome.json")
+- Updated ACTIVITIES_FILE to use os.path.join(DATA_DIR, "activities.json")
+
+Backup file: bot.py.bak (original)
+
+To revert:
+  copy bot.py.bak bot.py
+
+Railway config:
+- Volume: soothing-youth-volume at /data
+- Env var: RAILWAY_VOLUME_MOUNT_PATH=/data

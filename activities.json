@@ -1,0 +1,9 @@
+{
+  "activities": [
+    {"type": "playing", "name": "Valorant"},
+    {"type": "watching", "name": "YouTube"},
+    {"type": "listening", "name": "Spotify"},
+    {"type": "playing", "name": "Minecraft"},
+    {"type": "competing", "name": "in Chess"}
+  ]
+}

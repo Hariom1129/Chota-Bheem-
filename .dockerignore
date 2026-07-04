@@ -1,0 +1,8 @@
+.git/
+.gitignore
+__pycache__/
+*.pyc
+config.json
+welcome.json
+bot.py.bak
+REVERT_INFO.txt
